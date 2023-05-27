@@ -15,7 +15,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hey! I'm Mia Chen"
       introSubtitle = "17 y/o aspiring meche who loves knitting, crocheting, and plants!"
       introPhoto = "DeanKamen.jpg"
-      logo = "/blist-logo.png"
+      # logo = "BobRossChia.png"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
@@ -65,7 +65,7 @@ DefaultContentLanguageInSubdir = true
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
   # Reference: https://tailwindcss.com/docs/customizing-colors
-  ascentColor = "bg-blue-100"
+  ascentColor = "bg-yellow-100" 
 
   # The page bundle that is shown on the front page
   frontBundle = "blog"
@@ -115,60 +115,25 @@ DefaultContentLanguageInSubdir = true
   title = "Follow me"
   description = "I like making stuff"
 
-  [[params.homepage.social.icons]]
-    website = "twitter"
-    url = "https://twitter.com/"
+
   [[params.homepage.social.icons]]
     website = "linkedin"
-    url = "https://linkedin.com/in/"
-  [[params.homepage.social.icons]]
-    website = "xing"
-    url = "https://www.xing.com/profile/"
-  [[params.homepage.social.icons]]
-    website = "telegram"
-    url = "https://t.me/"
+    url = "https://www.linkedin.com/in/mia-chen-15b99a122/"
   [[params.homepage.social.icons]]
     website = "github"
-    url = "https://github.com/"
-  [[params.homepage.social.icons]]
-    website = "buymeacoffee"
-    url = "https://www.buymeacoffee.com/"
-  [[params.homepage.social.icons]]
-    website = "medium"
-    url = "https://medium.com/"
-  [[params.homepage.social.icons]]
-    website = "reddit"
-    url = "https://reddit.com/"
-  [[params.homepage.social.icons]]
-    website = "dribbble"
-    url = "https://dribbble.com/"
-  [[params.homepage.social.icons]]
-    website = "stackoverflow"
-    url = "https://stackoverflow.com/"
-  [[params.homepage.social.icons]]
-    website = "xda"
-    url = "https://forum.xda-developers.com/"
+    url = "https://github.com/mialunachen"
   [[params.homepage.social.icons]]
     website = "tiktok"
     url = "https://tiktok.com"
-  [[params.homepage.social.icons]]
-    website = "googlescholar"
-    url = "https://scholar.google.com/"
-  [[params.homepage.social.icons]]
-    website = "mastodon"
-    url = "https://joinmastodon.org"
+#  [[params.homepage.social.icons]]
+#    website = "googlescholar"
+#    url = "https://scholar.google.com/"
   [[params.homepage.social.icons]]
     website = "youtube"
-    url = "https://youtube.com"
+    url = "https://www.youtube.com/@miachen3420"
   [[params.homepage.social.icons]]
     website = "instagram"
-    url = "https://instagram.com"
-  [[params.homepage.social.icons]]
-    website = "facebook"
-    url = "https://facebook.com"
-  [[params.homepage.social.icons]]
-    website = "behance"
-    url = "https://behance.net"
+    url = "https://www.instagram.com/mialunachen/"
 
 [[menu.main]]
   name = "About"
