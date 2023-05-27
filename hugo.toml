@@ -1,6 +1,6 @@
 baseURL = 'https://mialunachen.github.io/'
 languageCode = 'en-us'
-title = 'mia luna chen blog'
+title = 'mia luna chen'
 metaDataFormat = "yaml"
 theme = "blist"
 
