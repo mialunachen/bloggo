@@ -1,0 +1,4 @@
+baseURL = 'https://mialunachen.github.io/'
+languageCode = 'en-us'
+title = 'mialunachen blog'
+theme = 'lightbi-hugo'

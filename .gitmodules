@@ -1,0 +1,4 @@
+[submodule "mialunachenblog/public"]
+	path = mialunachenblog/public
+	url = https://github.com/mialunachen/mialunachen.github.io.git
+	branch = main
