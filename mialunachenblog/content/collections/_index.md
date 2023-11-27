@@ -1,6 +1,6 @@
 ---
 Type : "tags"
 layout : "collections"
-title: "Collections"
-subtitle : "Links from the Web community, curated by Bino."
+title: "Blog"
+subtitle : "The fun. The fresh. The feels."
 ---

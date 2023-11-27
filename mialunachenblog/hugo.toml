@@ -1,6 +1,6 @@
 baseURL = 'https://mialunachen.github.io/'
 languageCode = 'en-us'
-title = 'mialunachen blog'
+title = 'mialunachen'
 theme = 'lightbi-hugo'
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -42,15 +42,15 @@ description="Your can add your website description here."
   filename = "sitemap.xml"
 
 [Author]
-  name = "Bino Kochumol Varghese"
+  name = "Mia Luna Chen"
   website = "https://binovarghese.com/"
-  email = "sample@gmail.com"
-  facebook = "username"
-  instagram = "username"
+  email = "mialuna@mit.edu"
+  # facebook = "username"
+  instagram = "mialunachen"
   youtube = "user/username" # or channel/channelname
-  twitter = "username"
-  threads = "username"
-  linkedin = "username"
+  # twitter = "username"
+  # threads = "username"
+  linkedin = "mia-chen-15b99a122"
   github = "username"
   #gitlab = "username"
   #bitbucket = "username"
@@ -77,20 +77,21 @@ description="Your can add your website description here."
     url = "/"
     weight = 1
 
+ # [[menu.main]]
+ #  name = "Notes"
+ #   url = "/notes/"
+ #   weight = 2
+
 [[menu.main]]
-    name = "Notes"
-    url = "/notes/"
-    weight = 2
+    name = "Blog"
+    url = "/Collections/"
+    weight = 3
 
 [[menu.main]]
     name = "Tags"
     url = "/tags"
-    weight = 3
-
-[[menu.main]]
-    name = "Collections"
-    url = "/collections/"
     weight = 4
+
 
 [[menu.main]]
     name = "About"
@@ -102,7 +103,4 @@ description="Your can add your website description here."
     url = "/"
     weight = 1
     
-[[menu.main]]
-    name = "Blog"
-    url = "/blog/"
-    weight = 2
+

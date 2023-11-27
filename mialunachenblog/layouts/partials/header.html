@@ -13,6 +13,42 @@
 {{ $subtitle := $.Scratch.Get "subtitle" }}
 
 {{ if .IsHome }}
+<header class="header-section {{ if $bigimg }}has-img{{ end }}">
+  <div class="intro-header no-img mt-10">
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+
+
+
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+
+            <div class="{{ .Type }}-heading">
+
+              <h1 class="fw-semibold display-5 lh-1 mb-3"> Welcome </h1>
+              <h6 class="tags-subheading display-6">projects and stuff</h6>
+              {{ if $subtitle }}
+              {{ if eq .Type "page" }}
+              <span class="{{ .Type }}-subheading">{{ $subtitle }}</span>
+              {{ else }}
+              <h6 class="{{ .Type }}-subheading display-6">{{ $subtitle }}</h6>
+              {{ end }}
+              {{ end }}
+
+              {{if .Page.IsPage}}
+              {{ if eq .Type "post" }}
+              {{ partial "post_meta.html" .}}
+              {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
 {{ else }}
 <header class="header-section {{ if $bigimg }}has-img{{ end }}">
