@@ -18,7 +18,7 @@ Paginate = 6
 [Params]
 selfHosted = true
 mainSections = ["post","posts"]
-dateFormat = "2 January 2023"
+dateFormat = "02 Jan 2006"
 comments = false
 readingTime = false
 wordCount = false
@@ -32,7 +32,7 @@ Lastmod = false
 rss = false 
 pagination = "10"
 hideAuthor = false
-authorInfo = "She was born to be free, let her run wild in her own way and you will never lose her."
+
 description="Your can add your website description here."
 
 
